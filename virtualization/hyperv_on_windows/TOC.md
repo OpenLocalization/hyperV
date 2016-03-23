@@ -1,10 +1,9 @@
 # HyperV
-## [Welcome to Hyper-V on Windows 10](windows_welcome.md)
+## [Welcome to Hyper-V on Windows 10](windows_welcome1.md)
 ## About
 ### [Hyper-v on Windows](about/hyperv_on_windows_new.md)
 ### [Supported Guest OS](about/supported_guest_os.md)
 ### [Whats New](about/whats_new.md)
-## [Build](about/build.md)
 ## Develop
 ### [Make Mgmt Service](develop/make_mgmt_service.md)
 ### [Powershell Snippets](develop/powershell_snippets.md)

@@ -1,8 +1,44 @@
 {
-  "locales": [ "zh-cn", "de-de" ],
-  "files": [
-	"virtualization/**/*.md"
-  ],
+   "filters":[  
+      {  
+         "metadata":{  
+            "ms.topic":[  
+               "hero-topics",
+               "getting-started-topics"
+            ]
+         },
+         "priorities":[  
+            {  
+               "priority":"high",
+               "locales":[  
+                  "de-de",
+                  "nl-nl",
+                  "zh-tw",
+               ]
+            }
+         ]
+      },
+      {  
+         "files":[  
+            "**/*.md",
+            "**/**/*.md"
+         ],
+         "priorities":[  
+            {  
+               "priority":"ht",
+               "locales":[  
+               
+                  "ja-jp",
+                  "zh-tw",
+                  "nl-nl",
+                  "pl-pl",
+                  "pt-br"
+               ]
+            }
+         ]
+      }
+   ],
   "includeDependencies": true,
-  "autoPush": true
+  "autoPush": true,
+  "xliffVersion": "1.2"
 }
